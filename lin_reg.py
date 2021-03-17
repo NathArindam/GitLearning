@@ -34,6 +34,7 @@ print(metrics.r2_score(Y_test,prediction))
 #variable is more effective.
 cdf = pd.DataFrame(lm.coef_,X.columns,columns=['Coefficient'])
 print(cdf)
+print('end of program')
       
                  
 
